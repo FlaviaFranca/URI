@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main(){
+	unsigned long long int k, m; //Meu erro foi aqui
+	
+	while(cin >> k >> m){
+		unsigned long long int a = k, b = m; // 32 bits e sem sinal..jamais esquecer.
+		
+		cout  << dec << ( a ^ b ) << endl;
+	}
+return 0;
+}

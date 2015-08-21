@@ -4,10 +4,10 @@
 using namespace std;
 
 int main(){
-	unsigned long long int k, m; //Meu erro foi aqui
+	unsigned long long int k, m; 
 	
 	while(cin >> k >> m){
-		unsigned long long int a = k, b = m; // 32 bits e sem sinal..jamais esquecer.
+		unsigned long long int a = k, b = m;
 		
 		cout  << dec << ( a ^ b ) << endl;
 	}
